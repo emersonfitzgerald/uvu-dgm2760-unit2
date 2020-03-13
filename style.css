@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body h1, h2, h3, h4, h5, h6, ul, li {margin:0;}
+body {
+	font-size: 16px;
+	font-family: Helvetica;
+}
+header, main, footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+header {
+	background-image: url("https://www.itl.cat/pngfile/big/5-56806_smoke-wallpaper-white-smoke-wallpaper-4k.jpg");
+	height: 300px;
+}
+header h1 {
+	color: #fff;
+	padding: 1rem 0 0 2%;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 3rem;
+}
+header h2 {
+	color: #fff;
+	padding: .5rem 0 0 2%;
+	text-shadow: 2px 2px 5px #000;
+	font-size: 2rem;
+}
+main h1 {
+	color: darkslategray;
+	padding: 1rem 0 0 2%;
+}
+main h2 {
+	color: darkslategray;
+	padding: .6rem 0 0 2%;
+}
+
+footer {
+    background-color: darkslategray;
+    color: white;
+}
+footer p {
+	text-align: center;
+	color: whitesmoke;
+	padding: .5rem 0;
+}
